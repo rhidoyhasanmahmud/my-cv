@@ -52,4 +52,12 @@ If you have any questions, or suggestions, or just want to say hi, feel free to 
 
 ---
 
+## 🌟 Support and Contributions
+
+If you find this repository helpful, please give it a star (⭐). Pull requests are always welcome and highly appreciated!
+
+**GitHub Repository:** [https://github.com/rhidoyhasanmahmud/my-cv](https://github.com/rhidoyhasanmahmud/my-cv)
+
+...
+
 Happy CV crafting! 🚀
