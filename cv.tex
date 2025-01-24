@@ -1,0 +1,208 @@
+%-------------------------
+% Resume in Latex
+% Author : Hasan Mahmud (Rhidoy)
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[document]{ragged2e}
+\justifying
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://example.com}{\Large John Doe}} & Email : \href{mailto:example@gmail.com}{example@gmail.com} \\
+  \href{https://linkedin.com/in/johndoe}{linkedin.com/in/johndoe} & Phone : +1234567890 \\
+  \href{https://github.com/johndoe}{github.com/johndoe} \\ City, Country \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Company A}{Kuala Lumpur, Malaysia}
+      {Sr. Software Engineer - Full-time}{May 2024 - Now}
+      \break
+      {Company A is a prominent USA-based financial technology company established in 2013. Access mobile banking, personal finance tools, fast cash advances, and earn cashback rewards for extra funds when needed.}
+      \break
+      \break
+      {I have managed the full system lifecycle from design to deployment, delivering scalable, secure, and high-performance solutions focusing on automation, efficiency, and cloud best practices. Currently, we've few services that have to use \textbf{Go (Golang)}.}
+    \resumeSubheading
+    {Company B}{Kuala Lumpur, Malaysia}
+      {Sr. Software Developer - Contract}{Jan 2023 - May 2024}
+      \break
+      \underline{\textbf{Work Area:}}
+       \resumeItemListStart
+       % Project - 01 %
+        \item{\textbf{\underline{Project A:}} {I led the design and development of client-centric APIs at Project A, ensuring top-notch code quality and seamless deployments. Utilizing technologies such as \textit{Go (Golang), Microservice, MySQL, Redis, RabbitMQ, Docker, and JavaScript(ReactJS)}, I extended the insurance/takaful coverage to standard motor insurance. My role focused on optimizing the Personal Accident (PA) insurance plan by integrating it with cutting-edge technologies for enhanced functionality and user experience.}}
+      % Project - 02 %
+        \item{\textbf{\underline{Project B:}} {Contributed to Project B, designing and implementing software solutions for seamless and unrestricted toll collection, improving overall highway user experience. Leveraged \textit{Java(Spring Boot, Spring Cloud), Microservice, MySQL, Redis, Apache Kafka, Docker, and JavaScript(ReactJS)} technologies to achieve project goals effectively.}}
+      % Project - 03 %
+        \item{\textbf{\underline{Project C:}} {At Project C, led software design and implementation initiatives to improve user experience and system efficiency for diverse industries. Expertise includes \textit{Go (Golang), Microservice, Microsoft SQL Server, Redis, RabbitMQ, Docker, and JavaScript(ReactJS)}.}}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Company C}{Dhaka, Bangladesh}
+      {Software Engineer - Full-time}{Feb 2021 - Dec 2022}
+      \break
+      \underline{\textbf{Work Area:}}
+      \resumeItemListStart
+        % Project - 01 %
+        \item{\textbf{\underline{Project D:}} {As a developer for Project D, specialized in crafting real-time transaction processing software for large financial institutions. Proficient in \textit{Java(Spring Boot, Spring Cloud, Spring Batch), Microservice, Oracle, Redis, RabbitMQ, Docker, Payment Gateway, and JavaScript(ReactJS)}.}}
+        % Project - 02 %
+        \item{\textbf{\underline{Project E:}} {As a developer for Project E, specialized in crafting real-time transaction processing software for large financial institutions. Proficient in \textit{Java(Spring Boot, Spring Cloud, Spring Batch), Microservice, Oracle, Redis, RabbitMQ, Docker, Payment Gateway, and JavaScript(ReactJS)}.}}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Company D}{Dhaka, Bangladesh}
+      {Software Engineer - Full-time}{June 2019 - Feb 2021}
+      \resumeItemListStart
+       \item{\underline{\textbf{Project F:}}}
+            {As a developer of Project F, I designed and developed a system that allows the tracking of sales data, inventory levels, and generating reports. It enables users to view real-time data, track sales performance, and manage stock levels efficiently. Technologies: \textit{Java (Spring Boot), JavaScript(React), PostgreSQL, Redis, RabbitMQ, Mockito (Unit testing), Microservice(Spring Cloud), Git, Docker, JPA-Hibernate}.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP SKILLS-----------------
+\section{TRAINING SKILLS}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Platform A}{City, Country}
+      {Programming Instructor}{March 2022 - till}
+      \resumeItemListStart
+        \item{
+        {Conducting a live cohort-based course to teach \textbf{Java and Python Programming, Problem-solving, Database Engineering, and Web Development} to university students and industry professionals.}}\href{https://example.com/course-link}{ [Course Link]}
+    \resumeItemListEnd
+    \resumeSubheading
+      {Platform B}{City, Country}
+      {Programming Instructor}{Jan 2023 - till}
+      \resumeItemListStart
+        \item{
+        {Conducting a live cohort-based course to teach} \href{https://example.com/system-design-course}{\textbf{System Design for Software Developer}} {and }\href{https://example.com/leetcode-course}{\textbf{Data Structure and Algorithm with Leetcode Exercise}}}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+%-----------Open Source Projects-----------------
+\section{Open Source Projects}
+  \resumeSubHeadingListStart
+    \item{
+    \justifying{
+      \textbf{\href{https://github.com/exampleuser/automated-attendance-system}{Automated Attendance System}}{: Developed an open-source application for real-time employee attendance tracking using CCTV footage. Contribution included building an optimized machine learning model for human detection and recognition. [Tooling - Machine Learning, Python, Django MVT, Monolithic Architecture]}}
+    }
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Software Development Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Programming Languages}{: Go (Golang), Java, JavaScript, Python}
+    }
+    \item{
+      \textbf{Frameworks and Libraries}{:  Concurrency (Goroutines, Channels, Select), Dependency Management (go mod), Performance Optimization (pprof), Reactive programming}
+    }
+    \item{
+      \textbf{Storage}{: SQL Server, Oracle, MySQL, PostgreSQL and NoSQL (Redis, MongoDB)}\textbf{ Web Server}{: NGINX }
+    }
+    \item{
+      \textbf{DevOps}{: Docker, Kubernetes, \textbf{AWS} (\textbf{EC2}, \textbf{Lambda}, S3, EBS, RDS (MySQL, PostgreSQL), DynamoDB, \textbf{OpenSearch}, \textbf{SQS}, IAM, etc) and Jenkins}
+    }
+    \item{
+      \textbf{Tools}{: Git, Message Broker(RabbitMQ, \textbf{Apache Kafka}), WebHook(Segment), Web Service API (SOAP, RESTful API, GraphQL), Dependency Management (Maven and Gradle), JIRA, Agile Methodologies}
+    }
+     \item{
+      \textbf{Software Architecture}{: \textit{Microservices Architecture}, Event-Driven Architecture}
+    }
+    
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+     {University A}{City, Country}
+      {Master of Science in Computer Science and Technology}{Feb. 2025 -- till}
+      \break
+      \textbf{Thesis: }\textbf{“A Machine Learning Based Approach for Diabetes Detection and Care in Bangladesh”}{, Gyancity Journal of  Engineering and Technology, Vol.4, No.2, pp.21-28, July 2018 ISSN: 2456-0065 DOI: 10.21058/gjet.2018.42003.  (Denmark)}
+  \resumeSubHeadingListEnd
+
+
+%--------Achievement------------
+\section{Achievements}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Programming Contest Achievements}{: 2017, 2015 ACM ICPC Dhaka Region }\textbf{(Honorable Mention)}{, 2016 National Collegiate Programming Contest, Dhaka }\textbf{(Honorable Mention)}{, 2015 Intra Programming Contest }\textbf{(Secure 7th Position)}{, Participated in }\textbf{10+ onsite}{ programming contest and }\textbf{solved more than 1000 problems}{ in several online judge.}
+    }
+    \item{
+      \textbf{Hackathon Competition}{: 2018 Inter University Software and Hardware Carnival }\textbf{(1st Runner-up)}{, 2017 Inter CSE Carnival }\textbf{(4th Position)}
+    }
+  \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
